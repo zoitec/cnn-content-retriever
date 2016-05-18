@@ -1,0 +1,56 @@
+{
+  "name": "cnn-content-retriever",
+  "version": "1.0.0",
+  "description": "CNN Content Retriever - For retrieving content from Hypatia",
+  "main": "lib/content-retriever.js",
+  "directories": {
+    "docs": "./docs",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "scripts": {
+    "generate-authors": "tools/generate-authors.sh",
+    "generate-changelog": "changelog-maker --group",
+    "generate-coverage": "ENVIRONMENT=local PORT=5000 istanbul cover _mocha -- test/unit -r test/mocha-setup.js && open coverage/lcov-report/index.html",
+    "generate-docs": "rm -rf docs && esdoc -c .esdoc.json",
+    "test": "eslint . && test/validate-json-files.sh",
+    "update-apply": "ncu -u",
+    "update-check": "ncu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnnlabs/cnn-content-retriever.git"
+  },
+  "homepage": "https://github.com/cnnlabs/cnn-content-retriever#readme",
+  "engines": {
+    "node": ">=6.1.0"
+  },
+  "dependencies": {
+    "async": "2.0.0-rc.5",
+    "request": "2.72.0",
+    "xml2js": "0.4.16"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-as-promised": "5.3.0",
+    "changelog-maker": "2.2.3",
+    "esdoc": "0.4.7",
+    "eslint": "2.10.2",
+    "istanbul": "0.4.3",
+    "jq-cli-wrapper": "0.3.0",
+    "jsonlint": "1.6.2",
+    "mocha": "2.4.5",
+    "nock": "8.0.0",
+    "npm-check-updates": "2.6.5"
+  },
+  "keywords": [
+    "cnn",
+    "cnnlabs",
+    "content",
+    "hypatia"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cnnlabs/cnn-content-retriever/issues"
+  }
+}

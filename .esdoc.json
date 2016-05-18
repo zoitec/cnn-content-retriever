@@ -1,0 +1,12 @@
+{
+    "title": "CNN Content Retriever",
+    "source": "./",
+    "destination": "./docs",
+    "excludes": ["coverage", "docs", "node_modules"],
+    "access": ["public", "protected", "private"],
+    "coverage": false,
+    "includeSource": false,
+    "manual": {
+        "changelog": ["./CHANGELOG.md"]
+    }
+}
