@@ -3,7 +3,7 @@
 
 
 --------------------------------------------------------------------------------
-__All files in this repository except otherwise noted below__
+### All files in this repository except otherwise noted below
 
 Apache License
 Version 2.0, January 2004
@@ -211,7 +211,7 @@ limitations under the License.
 
 
 --------------------------------------------------------------------------------
-__tools/generate-authors.sh__
+### tools/generate-authors.sh
 
 Copyright Node.js contributors. All rights reserved.
 
@@ -237,7 +237,7 @@ IN THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-__node_dependencies/*__
+### node_dependencies/*
 
 Generated with [license-checker](https://www.npmjs.com/package/license-checker)
 
