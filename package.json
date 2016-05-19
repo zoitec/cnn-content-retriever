@@ -5,6 +5,7 @@
   "main": "lib/content-retriever.js",
   "directories": {
     "docs": "./docs",
+    "example": "./example",
     "lib": "./lib",
     "test": "./test"
   },
@@ -13,7 +14,7 @@
     "generate-changelog": "changelog-maker --group",
     "generate-coverage": "ENVIRONMENT=local PORT=5000 istanbul cover _mocha -- test/unit -r test/mocha-setup.js && open coverage/lcov-report/index.html",
     "generate-docs": "rm -rf docs && esdoc -c .esdoc.json",
-    "test": "eslint . && test/validate-json-files.sh",
+    "test": "eslint . && test/validate-json-files.sh && ENVIRONMENT=local PORT=5000 mocha test/unit -r test/mocha-setup.js",
     "update-apply": "ncu -u",
     "update-check": "ncu"
   },
