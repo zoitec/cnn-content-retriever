@@ -6,6 +6,8 @@
     "access": ["public", "protected", "private"],
     "coverage": false,
     "includeSource": false,
+    "unexportIdentifier": true,
+    "undocumentIdentifier": false,
     "manual": {
         "changelog": ["./CHANGELOG.md"]
     }
