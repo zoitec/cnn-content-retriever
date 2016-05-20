@@ -20,12 +20,8 @@ const ContentRetriever = require('../lib/content-retriever.js'),
     url = 'http://www.cnn.com/2016/02/18/entertainment/kanye-west-rants-feat/index.html',
     contentRetriever = new ContentRetriever(url);
 
-contentRetriever.getBaseContentModel().then(function (result) {
-    const baseModel = result;
-
-    contentRetriever.getRelatedContent(baseModel).then(function (result) {
-        const hydratedModel = result;
-
+contentRetriever.getBaseContentModel().then(function success(baseModel) {
+    contentRetriever.getRelatedContent(baseModel).then(function success(hydratedModel) {
         console.log(JSON.stringify(hydratedModel, null, 2));
     });
 });
