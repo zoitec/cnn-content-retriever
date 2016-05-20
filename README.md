@@ -4,6 +4,17 @@ A service designed to pull content from Hypatia for CNN content.  Hypatia is
 an in-house API for working with CNN content.
 
 
+## Install
+This package is in development and has not been published to npm yet.  However,
+once it is, you can install it like this:
+
+```shell
+$ npm install --save --save-exact cnn-content-retriever
+```
+
+The `--save-exact` is up to you.  I recommend saving exact versions.
+
+
 ## Usage
 
 This is intended to be used as a dependency in a larger application.  Refer to
