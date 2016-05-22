@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/cnnlabs/cnn-content-retriever#readme",
   "engines": {
-    "node": ">=6.1.0"
+    "node": ">=6.0.0"
   },
   "dependencies": {
     "async": "2.0.0-rc.5",
