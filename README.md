@@ -70,6 +70,12 @@ coming at some point.
 
 
 
+## Environment variables
+
+- `DEBUG=cnn-content-retriever:*` - Set to enable visible
+  [debug](https://www.npmjs.com/package/debug) logging to console.
+
+
 ## Licensing
 
 See [LICENSE.md](./LICENSE.md) for details.

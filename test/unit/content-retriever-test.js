@@ -47,6 +47,25 @@ describe('Content Retriever', function () {
 
 
 
+    describe('timeout', function () {
+        it('should be set-able and get-able with a Number, like 20', function () {
+            this.contentRetriever.timeout = 20;
+            this.contentRetriever.timeout.should.equal(1000 * 20);
+        });
+
+        it('should be set-able and get-able with a String (of a number), like "20"', function () {
+            this.contentRetriever.timeout = '20';
+            this.contentRetriever.timeout.should.equal(1000 * 20);
+        });
+
+        it('should be set to 1 if an attempt to set it to 0 is made', function () {
+            this.contentRetriever.timeout = 0;
+            this.contentRetriever.timeout.should.equal(1000);
+        });
+    });
+
+
+
     describe('getBaseContentModel - hypatia non-responsive', function () {
         before(function () {
             this.randomNumber = Math.random();
