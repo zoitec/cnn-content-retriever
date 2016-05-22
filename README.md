@@ -1,7 +1,14 @@
 # CNN Content Retriever
 
 A service designed to pull content from Hypatia for CNN content.  Hypatia is
-an in-house API for working with CNN content.
+an API for working with CNN content.  You can find more details about Hypatia at
+https://developer.cnn.com, which will make no mention of the term "Hypatia", but
+thats it.
+
+Why should I use this if Hypatia has it's own api?  Hypatia's model requires
+multiple queries to get all of the content for a particular url.  This service
+makes that a little easier by fetching all references from a _base model_ and
+stitching them in place of the reference to return a full _hydrated model_.
 
 
 
@@ -45,8 +52,6 @@ contentRetriever.getBaseContentModel().then(function success(baseModel) {
     });
 });
 ```
-
-More details to come.
 
 
 
