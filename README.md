@@ -4,7 +4,9 @@ A service designed to pull content from Hypatia for CNN content.  Hypatia is
 an in-house API for working with CNN content.
 
 
+
 ## Install
+
 This package is in development and has not been published to npm yet.  However,
 once it is, you can install it like this:
 
@@ -13,6 +15,7 @@ $ npm install --save --save-exact cnn-content-retriever
 ```
 
 The `--save-exact` is up to you.  I recommend saving exact versions.
+
 
 
 ## Usage
@@ -36,6 +39,35 @@ contentRetriever.getBaseContentModel().then(function success(baseModel) {
 ```
 
 More details to come.
+
+
+
+## ESDoc Documentation
+
+You can generate and view the docs locally with the commands below.  The `open`
+command will only work on MacOS.
+
+```shell
+$ npm run generate-docs
+$ open docs/index.html
+```
+
+You can also browse the most current release at
+http://d1qmctp03wa6q9.cloudfront.net/cnn-content-retriever/index.html. CNAME
+coming at some point.
+
+
+
+## NPM scripts
+
+- `generate-authors` - Generates [AUTHORS.md](./AUTHORS.md).
+- `generate-changelog` - Generates output to put in [CHANGELOG.md](./CHANGELOG.md).
+- `generate-coverage` - Generates a code coverage report in `/coverage`.
+- `generate-docs` - Generates ESDoc documentation in `/docs`.
+- `test` - Runs all tests.
+- `update-apply` - Updates [package.json](./package.json) with dependency updates.
+- `update-check` - Outputs if any dependency updates are needed.
+
 
 
 ## Licensing
