@@ -5,6 +5,14 @@ an in-house API for working with CNN content.
 
 
 
+## Requirements
+
+Read these "_requirements_" as, "_only tested with_".
+
+- [Node.js](https://nodejs.org/) 6.x+
+
+
+
 ## Install
 
 This package is in development and has not been published to npm yet.  However,
@@ -77,10 +85,27 @@ coming at some point.
 
 
 
+## Developer notes
+
+- Always develop on the node version specified in the [.nvmrc](./.nvmrc) file.
+  If [nvm](https://github.com/creationix/nvm) is used typing `nvm install`
+  in the terminal will insure the correct version is used.
+
+- Contributors should read [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+- Collaborators should read [COLLABORATOR_GUIDE.md](./COLLABORATOR_GUIDE.md).
+
+- The current Project Owner (PO) of this project is James Young (@jamsyoung).
+
+
+
 ## Licensing
 
 See [LICENSE.md](./LICENSE.md) for details.
 
 
 
+
 [![build](https://img.shields.io/travis/cnnlabs/cnn-content-retriever/master.svg?style=flat-square)](https://travis-ci.org/cnnlabs/cnn-content-retriever)
+
+♥
