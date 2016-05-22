@@ -107,4 +107,6 @@ See [LICENSE.md](./LICENSE.md) for details.
 
 
 
-[![build](https://img.shields.io/travis/cnnlabs/cnn-content-retriever/master.svg?style=flat-square)](https://travis-ci.org/cnnlabs/cnn-content-retriever)  ♥
+[![build](https://img.shields.io/travis/cnnlabs/cnn-content-retriever/master.svg?style=flat-square)](https://travis-ci.org/cnnlabs/cnn-content-retriever)
+
+♥
