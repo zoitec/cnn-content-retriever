@@ -95,7 +95,8 @@ coming at some point.
 
 - Collaborators should read [COLLABORATOR_GUIDE.md](./COLLABORATOR_GUIDE.md).
 
-- The current Project Owner (PO) of this project is James Young (@jamsyoung).
+- The current Project Owner (PO) of this project is Jamie Young
+  ([@jamsyoung](https://github.com/jamsyoung/)).
 
 
 
