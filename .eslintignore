@@ -1,5 +1,4 @@
-.npm-init.js
 coverage
 docs
 node-modules
-test/unit/*
+test/mocks/*
