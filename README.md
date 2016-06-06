@@ -5,7 +5,7 @@ an API for working with CNN content.  You can find more details about Hypatia at
 https://developer.cnn.com, which will make no mention of the term "Hypatia", but
 thats it.
 
-Why should I use this if Hypatia has it's own api?  Hypatia's model requires
+Why should we use this if Hypatia has it's own api?  Hypatia's model requires
 multiple queries to get all of the content for a particular url.  This service
 makes that a little easier by fetching all references from a _base model_ and
 stitching them in place of the reference to return a full _hydrated model_.
@@ -22,14 +22,11 @@ Read these "_requirements_" as, "_only tested with_".
 
 ## Install
 
-This package is in development and has not been published to npm yet.  However,
-once it is, you can install it like this:
-
 ```shell
 $ npm install --save --save-exact cnn-content-retriever
 ```
 
-The `--save-exact` is up to you.  I recommend saving exact versions.
+The `--save-exact` is up to you.  We recommend saving exact versions.
 
 
 
@@ -113,5 +110,12 @@ See [LICENSE.md](./LICENSE.md) for details.
 
 
 [![build](https://img.shields.io/travis/cnnlabs/cnn-content-retriever/master.svg?style=flat-square)](https://travis-ci.org/cnnlabs/cnn-content-retriever)
+![node](https://img.shields.io/node/v/cnn-content-retriever.svg?style=flat-square)
+[![npm](https://img.shields.io/npm/v/cnn-content-retriever.svg?style=flat-square)](https://www.npmjs.com/package/cnn-content-retriever)
+[![npm-downloads](https://img.shields.io/npm/dm/cnn-content-retriever.svg?style=flat-square)](https://www.npmjs.com/package/cnn-content-retriever)
+[![dependency-status](https://gemnasium.com/cnnlabs/cnn-content-retriever.svg)](https://gemnasium.com/cnnlabs/cnn-content-retriever)
+
+
+
 
 ♥
