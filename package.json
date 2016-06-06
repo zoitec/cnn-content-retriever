@@ -1,6 +1,6 @@
 {
   "name": "cnn-content-retriever",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CNN Content Retriever - For retrieving content from Hypatia",
   "main": "lib/content-retriever.js",
   "directories": {

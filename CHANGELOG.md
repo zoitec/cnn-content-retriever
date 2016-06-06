@@ -1,5 +1,26 @@
 # CNN Content Retriever Changelog
 
+## 2016-06-06, Version 1.0.1, @jamsyoung
+
+### Notable changes
+
+- move `debug` from `devDependency` to `dependency`
+- update docs
+
+
+### Known issues
+
+See https://github.com/cnnlabs/cnn-content-retriever/labels/defect for complete and
+current list of known issues.
+
+
+# Commits
+
+* [[`6ef643f08a`](https://github.com/cnnlabs/cnn-content-retriever/commit/6ef643f08a)] - **deps**: move debug from dev dependency to dependency (James Young)
+* [[`7c5ac46733`](https://github.com/cnnlabs/cnn-content-retriever/commit/7c5ac46733)] - **docs**: update README (James Young)
+
+
+
 
 ## 2016-06-06, Version 1.0.0, @jamsyoung
 
