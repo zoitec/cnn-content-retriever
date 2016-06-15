@@ -28,8 +28,8 @@ function handleFailure(error) {
 contentRetriever.getBaseContentModel().then(
     function success(baseModel) {
         contentRetriever.getRelatedContent(baseModel).then(
-            function success(hydratedModel) {
-                console.log(JSON.stringify(hydratedModel, null, 2));
+            function success(resolvedModel) {
+                console.log(JSON.stringify(resolvedModel, null, 2));
             },
             handleFailure
         );

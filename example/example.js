@@ -21,7 +21,7 @@ const ContentRetriever = require('../lib/content-retriever.js'),
     contentRetriever = new ContentRetriever(url);
 
 contentRetriever.getBaseContentModel().then(function success(baseModel) {
-    contentRetriever.getRelatedContent(baseModel).then(function success(hydratedModel) {
-        console.log(JSON.stringify(hydratedModel, null, 2));
+    contentRetriever.getRelatedContent(baseModel).then(function success(resolvedModel) {
+        console.log(JSON.stringify(resolvedModel, null, 2));
     });
 });
