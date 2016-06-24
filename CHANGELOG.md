@@ -1,5 +1,26 @@
 # CNN Content Retriever Changelog
 
+## 2016-06-24, Version 1.1.0, @jamsyoung
+
+### Notable changes
+
+- added getRecentPublishes()
+
+
+### Known issues
+
+See https://github.com/cnnlabs/cnn-content-retriever/labels/defect for complete and
+current list of known issues.
+
+
+# Commits
+
+* [[`82281b8d80`](https://github.com/cnnlabs/cnn-content-retriever/commit/82281b8d80)] - **content-retriever**: add getRecentPublishes() (James Young)
+* [[`453fbea35e`](https://github.com/cnnlabs/cnn-content-retriever/commit/453fbea35e)] - **docs**: change references of hydratedModel to resolvedModel (James Young)
+
+
+
+
 ## 2016-06-06, Version 1.0.1, @jamsyoung
 
 ### Notable changes
