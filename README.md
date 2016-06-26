@@ -10,11 +10,17 @@ multiple queries to get all of the content for a particular url.  This service
 makes that a little easier by fetching all references from a _base model_ and
 stitching them in place of the reference to return a full _hydrated model_.
 
+[![published-version](https://img.shields.io/npm/v/cnn-content-retriever.svg?style=flat-square)](https://www.npmjs.com/package/cnn-content-retriever)
+[![npm-downloads](https://img.shields.io/npm/dm/cnn-content-retriever.svg?style=flat-square)](https://www.npmjs.com/package/cnn-content-retriever)
+[![dependency-status](https://gemnasium.com/cnnlabs/cnn-content-retriever.svg)](https://gemnasium.com/cnnlabs/cnn-content-retriever)
+[![build-status-master](https://img.shields.io/travis/cnnlabs/cnn-content-retriever/master.svg?style=flat-square&label=master)](https://travis-ci.org/cnnlabs/cnn-content-retriever)
+[![build-status-develop](https://img.shields.io/travis/cnnlabs/cnn-content-retriever/develop.svg?style=flat-square&label=develop)](https://travis-ci.org/cnnlabs/cnn-content-retriever)
+
 
 
 ## Requirements
 
-Read these "_requirements_" as, "_only tested with_".
+Read these "_requirements_" as "_only tested with_".
 
 - [Node.js](https://nodejs.org/) 6.x+
 
@@ -93,9 +99,9 @@ coming at some point.
   If [nvm](https://github.com/creationix/nvm) is used typing `nvm install`
   in the terminal will insure the correct version is used.
 
-- Contributors should read [CONTRIBUTING.md](./CONTRIBUTING.md).
+- Contributors should be familiar with the [Contributors Guide](https://github.com/cnnlabs/organization-docs/blob/master/CONTRIBUTING.md)
 
-- Collaborators should read [COLLABORATOR_GUIDE.md](./COLLABORATOR_GUIDE.md).
+- Collaborators should be familiar with the [Collaborator Guide](https://github.com/cnnlabs/organization-docs/blob/master/COLLABORATOR_GUIDE.md)
 
 - The current Project Owner (PO) of this project is Jamie Young
   ([@jamsyoung](https://github.com/jamsyoung/)).
@@ -108,14 +114,5 @@ See [LICENSE.md](./LICENSE.md) for details.
 
 
 
-
-[![build](https://img.shields.io/travis/cnnlabs/cnn-content-retriever/master.svg?style=flat-square)](https://travis-ci.org/cnnlabs/cnn-content-retriever)
-![node](https://img.shields.io/node/v/cnn-content-retriever.svg?style=flat-square)
-[![npm](https://img.shields.io/npm/v/cnn-content-retriever.svg?style=flat-square)](https://www.npmjs.com/package/cnn-content-retriever)
-[![npm-downloads](https://img.shields.io/npm/dm/cnn-content-retriever.svg?style=flat-square)](https://www.npmjs.com/package/cnn-content-retriever)
-[![dependency-status](https://gemnasium.com/cnnlabs/cnn-content-retriever.svg)](https://gemnasium.com/cnnlabs/cnn-content-retriever)
-
-
-
-
-♥
+---
+♥︎ Make good art - Neil Gaiman
