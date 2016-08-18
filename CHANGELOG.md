@@ -1,5 +1,26 @@
 # CNN Content Retriever Changelog
 
+## 2016-08-18, Version 1.2.0, @jamsyoung
+
+### Notable changes
+
+- added getVideoReferenceModel() to pull more details for videos
+
+
+### Known issues
+
+See https://github.com/cnnlabs/cnn-content-retriever/labels/defect for complete and
+current list of known issues.
+
+
+# Commits
+
+* [[`5a2b6ffa58`](https://github.com/cnnlabs/cnn-content-retriever/commit/5a2b6ffa58)] - **(SEMVER-MINOR)** Get video cdn urls (#4) (Jamie Young) [#4](https://github.com/cnnlabs/cnn-content-retriever/pull/4)
+* [[`2fe88e5d61`](https://github.com/cnnlabs/cnn-content-retriever/commit/2fe88e5d61)] - **docs**: update docs (James Young)
+
+
+
+
 ## 2016-06-24, Version 1.1.0, @jamsyoung
 
 ### Notable changes
