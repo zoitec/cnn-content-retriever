@@ -1,5 +1,25 @@
 # CNN Content Retriever Changelog
 
+## 2016-09-12, Version 1.3.0, @jamsyoung
+
+### Notable changes
+
+- added getCoverArt() method to pull coverArt for processed content
+
+
+### Known issues
+
+See https://github.com/cnnlabs/cnn-content-retriever/labels/defect for complete and
+current list of known issues.
+
+
+# Commits
+
+* [[`ad77950529`](https://github.com/cnnlabs/cnn-content-retriever/commit/ad77950529)] - **(SEMVER-MINOR)** getCoverArt method added (#5) (Jamie Young) [#5](https://github.com/cnnlabs/cnn-content-retriever/pull/5)
+
+
+
+
 ## 2016-08-18, Version 1.2.0, @jamsyoung
 
 ### Notable changes
