@@ -1,5 +1,12 @@
 # CNN Content Retriever Changelog
 
+## 2016-09-12, Version 1.3.3, @jamsyoung
+
+### Notable changes
+
+- handle error condition in getCoverArt() even more better
+
+
 ## 2016-09-12, Version 1.3.2, @jamsyoung
 
 ### Notable changes
