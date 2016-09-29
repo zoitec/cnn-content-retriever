@@ -1,5 +1,27 @@
 # CNN Content Retriever Changelog
 
+
+
+## 2016-09-29, Version 1.4.0, @jamsyoung
+
+### Notable changes
+
+- Update getRecentPublishes to support timestamp
+
+
+### Known issues
+
+See https://github.com/cnnlabs/cnn-content-retriever/labels/defect for complete and
+current list of known issues.
+
+
+# Commits
+
+* [[`ac5416da46`](https://github.com/cnnlabs/cnn-content-retriever/commit/ac5416da46)] - **(SEMVER-MINOR)** content-retriever lib: option to use timestamp to filter recent content retrieval (sean joseph) [#6](https://github.com/cnnlabs/cnn-content-retriever/pull/6)
+
+
+
+
 ## 2016-09-12, Version 1.3.2, @jamsyoung
 
 ### Notable changes
