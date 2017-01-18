@@ -1,6 +1,22 @@
 # CNN Content Retriever Changelog
 
 
+## 2017-01-18, Version 1.5.0, @jamsyoung
+
+### Notable changes
+
+- change getCoverArt() to getContentFactors()
+
+
+# Commits
+
+* [[`a880c8b375`](https://github.com/cnnlabs/cnn-content-retriever/commit/a880c8b375)] - Merge branch 'release/1.4.0' (James Young)
+* [[`7b0379f2f2`](https://github.com/cnnlabs/cnn-content-retriever/commit/7b0379f2f2)] - **(SEMVER-MINOR)** **content-retriever**: create getContentFactors (Katie Owen) [#7](https://github.com/cnnlabs/cnn-content-retriever/pull/7)
+
+
+
+
+
 ## 2016-09-29, Version 1.4.0, @jamsyoung
 
 ### Notable changes
