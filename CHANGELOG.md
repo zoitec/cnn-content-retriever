@@ -1,6 +1,17 @@
 # CNN Content Retriever Changelog
 
 
+
+## 2017-02-18, Version 1.6.1, @jamsyoung
+### Notable changes
+- Add debug logging
+
+# Commits
+* [[`b0935edc03`](https://github.com/cnnlabs/cnn-content-retriever/commit/b0935edc03)] - **logging**: add logging to getRecentPublishes() (James Young)
+
+
+
+
 ## 2017-01-19, Version 1.6.0, @jamsyoung
 ### Notable changes
 - Fix a defect that prevented cover art from being parsed correctly
