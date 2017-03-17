@@ -1,5 +1,69 @@
 # CNN Content Retriever Changelog
 
+
+
+## 2017-02-18, Version 1.6.1, @jamsyoung
+### Notable changes
+- Add debug logging
+
+# Commits
+* [[`b0935edc03`](https://github.com/cnnlabs/cnn-content-retriever/commit/b0935edc03)] - **logging**: add logging to getRecentPublishes() (James Young)
+
+
+
+
+## 2017-01-19, Version 1.6.0, @jamsyoung
+### Notable changes
+- Fix a defect that prevented cover art from being parsed correctly
+
+# Commits
+* [[`f9cc59523c`](https://github.com/cnnlabs/cnn-content-retriever/commit/f9cc59523c)] - **(SEMVER-MINOR)** **content-retriever**: make coverart logic simpler (Katie Owen) [#8](https://github.com/cnnlabs/cnn-content-retriever/pull/8)
+
+
+
+
+## 2017-01-18, Version 1.5.0, @jamsyoung
+### Notable changes
+- change getCoverArt() to getContentFactors()
+
+
+# Commits
+* [[`a880c8b375`](https://github.com/cnnlabs/cnn-content-retriever/commit/a880c8b375)] - Merge branch 'release/1.4.0' (James Young)
+* [[`7b0379f2f2`](https://github.com/cnnlabs/cnn-content-retriever/commit/7b0379f2f2)] - **(SEMVER-MINOR)** **content-retriever**: create getContentFactors (Katie Owen) [#7](https://github.com/cnnlabs/cnn-content-retriever/pull/7)
+
+
+
+
+
+## 2016-09-29, Version 1.4.0, @jamsyoung
+
+### Notable changes
+
+- Update getRecentPublishes to support timestamp
+
+
+### Known issues
+
+See https://github.com/cnnlabs/cnn-content-retriever/labels/defect for complete and
+current list of known issues.
+
+
+# Commits
+
+* [[`ac5416da46`](https://github.com/cnnlabs/cnn-content-retriever/commit/ac5416da46)] - **(SEMVER-MINOR)** content-retriever lib: option to use timestamp to filter recent content retrieval (sean joseph) [#6](https://github.com/cnnlabs/cnn-content-retriever/pull/6)
+
+
+
+
+## 2016-09-12, Version 1.3.3, @jamsyoung
+
+### Notable changes
+
+- handle error condition in getCoverArt() even more better
+
+
+
+
 ## 2016-09-12, Version 1.3.2, @jamsyoung
 
 ### Notable changes
